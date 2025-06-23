@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    font-weight: 300; /* Thinner body text */
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.navbar {
+    background: #000; /* Black for bold contrast */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar a {
+    color: #fff;
+    font-weight: 600; /* Slightly bold for readability */
+}
+
+.navbar a.active {
+    color: #fff; /* Keep active link white */
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 1.8rem; /* Large brand name */
+}
+
+header {
+    background: #fff; /*  Lighter tone for contrast*/
+    color: #222; /* Dark text for readability */
+    padding: 100px 20px; /* More padding for emphasis */
+    text-align: left;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    font-weight: thin;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000; /* Strong contrast for heading */
+}
+
+header p {
+    margin: 10px 0 30px;
+    font-size: 1.2rem;
+    color: #555; /* Softened text color */
+}
+
+header a {
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header a:hover {
+    background: #c0392b; /* Darken on hover */
+}
+
+section {
+    padding: 60px 20px;
+    margin: auto;
+}
+
+.services, .portfolio, .testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.service-item, .portfolio-item {
+    flex: 1 1 calc(33.333% - 20px);
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.service-item:hover, .portfolio-item:hover {
+    transform: translateY(-10px); /* Lift effect */
+}
+
+.card img {
+    width: 300px; 
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background: #222;
+    color: #fff;
+    margin-top: 80px; /* Space above footer */
+}
+
+.cta {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cta a {
+    color: #fff;
+    background: #3498db;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cta a:hover {
+    background: #2980b9; /* Darker blue on hover */
+}
+
+
+h2 {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
